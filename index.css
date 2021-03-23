@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*body{
+    height: 360px;
+    background-image: url(image/f3c25fd5a5395b6f6370e46d6522788d.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0px;
+    margin: 0px;
+}
+.header{
+    height: 75%;
+    width: 100%;
+}
+.main{
+    height: 20%;
+    width: 100%;
+    background: linear-gradient(to top,black,white);
+}
+.footer{
+    height: 5%;
+    width: 100%;
+    background-color: black;
+}
+header{
+    position: absolute,0px;
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    position: absolute,576px;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to top,black,white);
+}
+footer{
+    position: absolute,684px;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+*/
+body{
+    /*background: url(image/jAJsL3gq.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;*/
+    background-color: black;   
+}
+#container{
+    width: 100%;
+    margin: 0px auto;
+    /*border: 1px solid black;*/
+   
+}
+header{
+    /*background-color: red;*/
+    height: 79.2%;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    background-image: url(logo/porsche-logo.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 15%;
+    border-bottom: 5px solid rgb(0, 61, 110) ;
+}
+nav{
+    height: 5%;
+    width: 100%;
+    background: linear-gradient(to top,rgb(168, 168, 168),rgb(255, 255, 255));
+
+    /*border: 1px solid red;*/
+
+}
+nav ul li{
+    float: left;
+    margin: 5px;
+    list-style: none;
+    line-height: 20px;
+    text-decoration:none;
+}
+section{
+    height: 5%;
+    width: 100%;
+    background: linear-gradient(to top, rgb(49, 49, 49),rgb(168, 168, 168) );
+}
+footer{
+    height: 10%;
+    width: 100%;
+    background: linear-gradient(to top,black, rgb(51, 51, 51));
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.clearfix{
+    clear: both;
+}
